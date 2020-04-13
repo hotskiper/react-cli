@@ -1,0 +1,479 @@
+{
+    "data": {
+      "ai_person": [{
+        "name": "张成亮",
+        "idcard": "3201990293888483454",
+        "age": 18,
+        "sex": "男",
+        "address": "江苏省南京市",
+        "minzi": "汉",
+        "xueli": "本科",
+        "birthday": "1999-01-01",
+        "ai_car": {
+          "number": "苏A1SSS",
+          "color": "red",
+          "rank": "Das"
+        },
+        "ai_zhiye": [
+          {
+            "from": "2018年10月",
+            "to": "至今",
+            "duty": "程序员",
+            "company": "南京烽火科技"
+          },
+          {
+            "from": "2016年10月",
+            "to": "2018年10月",
+            "duty": "程序员",
+            "company": "南京亚新科技"
+          }
+        ],
+        "ai_label": [
+          {
+            "key": "similar",
+            "value": "前科人员"
+          },
+          {
+            "key": "running",
+            "value": "在逃人员"
+          }
+        ],
+        "ai_phone": [
+          {
+            "number": "15899889484",
+            "address": "江苏省南京市",
+            "label": "中国移动",
+            "relations": [
+              {
+                "account": "234234324",
+                "type": "qq",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              },
+              {
+                "account": "234234324",
+                "type": "weixin",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              }
+            ]
+          },
+          {
+            "number": "15899889484",
+            "address": "江苏省南京市",
+            "label": "中国移动",
+            "relations": [
+              {
+                "account": "234234324",
+                "type": "qq",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              },
+              {
+                "account": "234234324",
+                "type": "weixin",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              }
+            ]
+          }
+        ]
+      },{
+        "name": "张成亮",
+        "idcard": "3201990293888483454",
+        "age": 18,
+        "sex": "男",
+        "address": "江苏省南京市",
+        "minzi": "汉",
+        "xueli": "本科",
+        "birthday": "1999-01-01",
+        "ai_car": {
+          "number": "苏A1SSS",
+          "color": "red",
+          "rank": "Das"
+        },
+        "ai_zhiye": [
+          {
+            "from": "2018年10月",
+            "to": "至今",
+            "duty": "程序员",
+            "company": "南京烽火科技"
+          },
+          {
+            "from": "2016年10月",
+            "to": "2018年10月",
+            "duty": "程序员",
+            "company": "南京亚新科技"
+          }
+        ],
+        "ai_label": [
+          {
+            "key": "similar",
+            "value": "前科人员"
+          },
+          {
+            "key": "running",
+            "value": "在逃人员"
+          }
+        ],
+        "ai_phone": [
+          {
+            "number": "15899889484",
+            "address": "江苏省南京市",
+            "label": "中国移动",
+            "relations": [
+              {
+                "account": "234234324",
+                "type": "qq",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              },
+              {
+                "account": "234234324",
+                "type": "weixin",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              }
+            ]
+          },
+          {
+            "number": "15899889484",
+            "address": "江苏省南京市",
+            "label": "中国移动",
+            "relations": [
+              {
+                "account": "234234324",
+                "type": "qq",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              },
+              {
+                "account": "234234324",
+                "type": "weixin",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              }
+            ]
+          }
+        ]
+      },{
+        "name": "张成亮",
+        "idcard": "3201990293888483454",
+        "age": 18,
+        "sex": "男",
+        "address": "江苏省南京市",
+        "minzi": "汉",
+        "xueli": "本科",
+        "birthday": "1999-01-01",
+        "ai_car": {
+          "number": "苏A1SSS",
+          "color": "red",
+          "rank": "Das"
+        },
+        "ai_zhiye": [
+          {
+            "from": "2018年10月",
+            "to": "至今",
+            "duty": "程序员",
+            "company": "南京烽火科技"
+          },
+          {
+            "from": "2016年10月",
+            "to": "2018年10月",
+            "duty": "程序员",
+            "company": "南京亚新科技"
+          }
+        ],
+        "ai_label": [
+          {
+            "key": "similar",
+            "value": "前科人员"
+          },
+          {
+            "key": "running",
+            "value": "在逃人员"
+          }
+        ],
+        "ai_phone": [
+          {
+            "number": "15899889484",
+            "address": "江苏省南京市",
+            "label": "中国移动",
+            "relations": [
+              {
+                "account": "234234324",
+                "type": "qq",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              },
+              {
+                "account": "234234324",
+                "type": "weixin",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              }
+            ]
+          },
+          {
+            "number": "15899889484",
+            "address": "江苏省南京市",
+            "label": "中国移动",
+            "relations": [
+              {
+                "account": "234234324",
+                "type": "qq",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              },
+              {
+                "account": "234234324",
+                "type": "weixin",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              }
+            ]
+          }
+        ]
+      },{
+        "name": "张成亮",
+        "idcard": "3201990293888483454",
+        "age": 18,
+        "sex": "男",
+        "address": "江苏省南京市",
+        "minzi": "汉",
+        "xueli": "本科",
+        "birthday": "1999-01-01",
+        "ai_car": {
+          "number": "苏A1SSS",
+          "color": "red",
+          "rank": "Das"
+        },
+        "ai_zhiye": [
+          {
+            "from": "2018年10月",
+            "to": "至今",
+            "duty": "程序员",
+            "company": "南京烽火科技"
+          },
+          {
+            "from": "2016年10月",
+            "to": "2018年10月",
+            "duty": "程序员",
+            "company": "南京亚新科技"
+          }
+        ],
+        "ai_label": [
+          {
+            "key": "similar",
+            "value": "前科人员"
+          },
+          {
+            "key": "running",
+            "value": "在逃人员"
+          }
+        ],
+        "ai_phone": [
+          {
+            "number": "15899889484",
+            "address": "江苏省南京市",
+            "label": "中国移动",
+            "relations": [
+              {
+                "account": "234234324",
+                "type": "qq",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              },
+              {
+                "account": "234234324",
+                "type": "weixin",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              }
+            ]
+          },
+          {
+            "number": "15899889484",
+            "address": "江苏省南京市",
+            "label": "中国移动",
+            "relations": [
+              {
+                "account": "234234324",
+                "type": "qq",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              },
+              {
+                "account": "234234324",
+                "type": "weixin",
+                "time": "2019-12-23 14:34:33",
+                "days": 16,
+                "dataFrom": "虚拟关联",
+                "relatedNames": "陈梅,陈梅梅"
+              }
+            ]
+          }
+        ]
+      }]
+    },
+    "desc": {
+      "data.ai_person.name": {
+        "isSearch": 1,
+        "title": "姓名",
+        "weight": 1,
+        "type": "String"
+      },
+      "data.ai_person.idcard": {
+        "isSearch": 1,
+        "title": "证件",
+        "weight": 2,
+        "type": "String"
+      },
+      "data.ai_person.detail.age": {
+        "isSearch": 0,
+        "title": "年龄",
+        "weight": 3,
+        "type": "Integer"
+      },
+      "data.ai_person.sex": {
+        "isSearch": 1,
+        "title": "性别",
+        "weight": 4,
+        "type": "String"
+      },
+      "data.ai_person.address": {
+        "isSearch": 1,
+        "title": "地址",
+        "weight": 5,
+        "type": "String"
+      },
+      "data.ai_person.minzi": {
+        "isSearch": 0,
+        "title": "民族",
+        "weight": 6,
+        "type": "String"
+      },
+      "data.ai_person.xueli": {
+        "isSearch": 0,
+        "title": "学历",
+        "weight": 7,
+        "type": "String"
+      },
+      "data.ai_person.birthday": {
+        "isSearch": 0,
+        "title": "生日",
+        "weight": 8,
+        "type": "String"
+      },
+      "data.ai_person.zhiye.from": {
+        "isSearch": 0,
+        "title": "开始时间",
+        "weight": 1,
+        "type": "String"
+      },
+      "data.ai_person.zhiye.to": {
+        "isSearch": 0,
+        "title": "结束时间",
+        "weight": 2,
+        "type": "String"
+      },
+      "data.ai_person.zhiye.duty": {
+        "isSearch": 0,
+        "title": "职位名称",
+        "weight": 3,
+        "type": "String"
+      },
+      "data.ai_person.zhiye.company": {
+        "isSearch": 0,
+        "title": "单位名称",
+        "weight": 4,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.number": {
+        "isSearch": 0,
+        "title": "手机号",
+        "weight": 1,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.address": {
+        "isSearch": 0,
+        "title": "归属地",
+        "weight": 2,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.label": {
+        "isSearch": 0,
+        "title": "运营商",
+        "weight": 3,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.relations.account": {
+        "isSearch": 0,
+        "title": "账号",
+        "weight": 1,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.relations.type": {
+        "isSearch": 2,
+        "title": "账号类型",
+        "weight": 3,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.relations.time": {
+        "isSearch": 3,
+        "title": "登录时间",
+        "weight": 3,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.relations.days": {
+        "isSearch": 4,
+        "title": "在线时间",
+        "weight": 3,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.relations.dataFrom": {
+        "isSearch": 4,
+        "title": "数据来源",
+        "weight": 3,
+        "type": "String"
+      },
+      "data.ai_person.ai_phone.relations.relatedNames": {
+        "isSearch": 5,
+        "title": "实名",
+        "weight": 3,
+        "type": "String"
+      }
+    },
+    "code": 200,
+    "page": {}
+  }

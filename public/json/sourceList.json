@@ -1,0 +1,39 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "connName": "string",
+      "createTime": 0,
+      "dbType": "string",
+      "dbUrl": "string",
+      "description": "string",
+      "id": 1,
+      "password": "string",
+      "projectId": 0,
+      "recTaskId": 0,
+      "updateTime": 0,
+      "username": "string"
+    },
+    {
+      "connName": "string",
+      "createTime": 0,
+      "dbType": "string",
+      "dbUrl": "string",
+      "description": "string",
+      "id": 2,
+      "password": "string",
+      "projectId": 0,
+      "recTaskId": 0,
+      "updateTime": 0,
+      "username": "string"
+    }
+  ],
+  "msg": "string",
+  "page": {
+    "pageItems": 0,
+    "pageNo": 0,
+    "sortname": "string",
+    "sortorder": "string",
+    "totalRows": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "code" : 0,
+  "msg" : "操作成功",
+  "data" : [ {
+    "id" : 396,
+    "projectId" : 338,
+    "pageName" : "person_info详情",
+    "showFlag" : 0,
+    "pageType" : 3,
+    "datasourceId" : 340,
+    "instanceId" : 392
+  }, {
+    "id" : 344,
+    "projectId" : 338,
+    "pageName" : "首页",
+    "showFlag" : 1,
+    "pageType" : 1,
+    "datasourceId" : 340,
+    "instanceId" : 0
+  }, {
+    "id" : 395,
+    "projectId" : 338,
+    "pageName" : "person_info列表",
+    "showFlag" : 1,
+    "pageType" : 2,
+    "datasourceId" : 340,
+    "instanceId" : 392
+  } ],
+  "page" : null
+}

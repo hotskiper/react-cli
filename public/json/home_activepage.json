@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "data": {
+    "id": "122",
+    "name": "页面1233",
+    "projectName": "全息档案",
+    "type": "list"
+  },
+  "msg": "string",
+  "page": {
+    "pageItems": 0,
+    "pageNo": 0,
+    "sortname": "string",
+    "sortorder": "string",
+    "totalRows": 0
+  }
+}

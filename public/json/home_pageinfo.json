@@ -1,0 +1,213 @@
+{
+  "code" : 0,
+  "msg" : "操作成功",
+  "data" : [ {
+    "fieldName" : "name",
+    "fieldRemark" : "姓名",
+    "recMetaCode" : "D201003",
+    "recName" : "姓名",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "sex",
+    "fieldRemark" : "性别",
+    "recMetaCode" : "D400001",
+    "recName" : "性别",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "live_address",
+    "fieldRemark" : "现居住址 ",
+    "recMetaCode" : "D201019",
+    "recName" : "地址",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "origin_address",
+    "fieldRemark" : "原地址（户口所在地）",
+    "recMetaCode" : "D201019",
+    "recName" : "地址",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "wuhan_address",
+    "fieldRemark" : "在武汉居住地",
+    "recMetaCode" : "M000003",
+    "recName" : "行政区划",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "phone",
+    "fieldRemark" : "被排查人联系方式",
+    "recMetaCode" : "D201005",
+    "recName" : "手机号",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "huzhu_phone",
+    "fieldRemark" : "户主联系电话",
+    "recMetaCode" : "D201005",
+    "recName" : "手机号",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "nation",
+    "fieldRemark" : "民族",
+    "recMetaCode" : "D400003",
+    "recName" : "民族",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "origin",
+    "fieldRemark" : "籍贯",
+    "recMetaCode" : "M000003",
+    "recName" : "行政区划",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "education",
+    "fieldRemark" : "学历",
+    "recMetaCode" : "D400025",
+    "recName" : "文化程度",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "huzhu_name",
+    "fieldRemark" : "户主姓名",
+    "recMetaCode" : "D201003",
+    "recName" : "姓名",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "cz_address",
+    "fieldRemark" : "常住地址",
+    "recMetaCode" : "D201019",
+    "recName" : "地址",
+    "dataType" : "string",
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 1
+  }, {
+    "fieldName" : "id",
+    "fieldRemark" : "",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "age",
+    "fieldRemark" : "年龄",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "building",
+    "fieldRemark" : "楼栋",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "room_no",
+    "fieldRemark" : "房号",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "card_no",
+    "fieldRemark" : "身份证号",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "name_used",
+    "fieldRemark" : "曾用名",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "relation",
+    "fieldRemark" : "与户主关系",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "birthday",
+    "fieldRemark" : "出生日期",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "political_status",
+    "fieldRemark" : "政治面貌",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "social_no",
+    "fieldRemark" : "社保证号",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  }, {
+    "fieldName" : "vehicle_no",
+    "fieldRemark" : "车牌号码",
+    "recMetaCode" : null,
+    "recName" : null,
+    "dataType" : null,
+    "keyFlag" : 0,
+    "weight" : 0,
+    "queryFlag" : 0
+  } ],
+  "page" : null
+}

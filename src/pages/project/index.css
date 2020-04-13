@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft Yahei';
+  list-style: none;
+}
+
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  background-color: #e2e2e7;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+  text-decoration: none;
+}
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+
+.project .header {
+  height: 65px;
+  color: #fff;
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: rgba(37, 45, 71, 0.12);
+}
+
+.project .header img {
+  line-height: 50px;
+  padding: 0 25px;
+}
+
+.project .header ul {
+  list-style: none;
+  display: flex;
+}
+
+.project .header ul li {
+  padding: 0 25px;
+  cursor: pointer;
+  list-style: none;
+  line-height: 65px;
+  font-size: 16px;
+  flex-direction: column;
+}
+
+.project .header ul .selected {
+  background-color: #2985f7;
+  font-weight: bold;
+}
+
+.project .banner {
+  background-image: url(./images/banner.png);
+  background-repeat: no-repeat;
+  background-color: #00002a;
+  background-position: center;
+  height: 380px;
+  position: relative;
+  color: #fff;
+}
+
+.project .banner .description {
+  position: absolute;
+  z-index: 888;
+  left: 216px;
+  top: 38%;
+}
+
+.project .banner .description h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 22px;
+}
+
+.project .banner .description span {
+  font-size: 16px;
+}
+
+.project .banner img {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.project .title {
+  background-color: #fff;
+  height: 48px;
+  line-height: 48px;
+  position: relative;
+  padding-left: 157px;
+}
+
+.project .title .titleDes {
+  display: flex;
+}
+
+.project .title h3 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}
+
+.project .title h3 i {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-image: url(./images/dot.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: -26px;
+  top: 15px;
+}
+
+.project .title span {
+  color: #878d99;
+}
+
+.project .title .filter {
+  position: absolute;
+  right: 120px;
+  top: 0;
+}
+
+.project .projectList {
+  padding: 16px 120px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project .projectList li {
+  margin: 0 8px 16px 8px;
+}
+
+.project .projectList .add {
+  width: 325px;
+  height: 240px;
+  border: 1px dashed #b4bccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.project .projectList .add:hover {
+  background-color: #e8ebf2;
+}
+
+.project .projectList .add img {
+  width: 38px;
+  height: 38px;
+  margin: 80px auto 0;
+  display: block;
+}
+
+.project .projectList .add span {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #a2aabb;
+}
+
+.project .projectList .item {
+  position: relative;
+  width: 318px;
+  height: 240px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 16px 2px rgba(3, 3, 3, 0.08);
+}
+
+@media screen and (min-width: 2050px) and (max-width: 2565px) {
+  .project .projectList .add {
+    width: 312px;
+  }
+  .project .projectList .item {
+    width: 312px;
+  }
+}
+
+@media screen and (min-width: 1940px) and (max-width: 2050px) {
+  .project .projectList .add {
+    width: 345px;
+  }
+  .project .projectList .item {
+    width: 345px;
+  }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 1940px) {
+  .project .projectList .add {
+    width: 316px;
+  }
+  .project .projectList .item {
+    width: 316px;
+  }
+}
+
+.project .projectList .item .operator {
+  display: none;
+}
+
+.project .projectList .selected {
+  border: 1px solid #2985f7 !important;
+}
+
+.project .projectList .selected .operator {
+  position: absolute;
+  display: block;
+  right: -1px;
+  top: -1px;
+  display: flex;
+  background-color: #2985f7;
+  border: 1px solid #216df5;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 5px;
+  height: 28px;
+  padding-left: 7px;
+  padding-right: 5px;
+}
+
+.project .projectList .selected .operator li {
+  margin: 0 4px;
+  padding: 4px 2px;
+  cursor: pointer;
+}
+
+.project .projectList .selected .operator img {
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+.project .projectList .selected .operator img:hover {
+  opacity: 0.7;
+}
+
+.project .projectList .item .type {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 26px auto 5px;
+}
+
+.project .projectList .item h2 {
+  display: block;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 15px;
+}
+
+.project .projectList .item .status {
+  display: block;
+  font-size: 14px;
+  color: #b4bccc;
+  text-align: center;
+}
+
+.project .projectList .item .status i {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project .projectList .item .status .copyText {
+  color: #404040;
+  cursor: pointer;
+}
+
+.project .projectList .item .status .online {
+  background-image: url(./images/online.png);
+}
+
+.project .projectList .item .status .offline {
+  background-image: url(./images/offline.png);
+}
+
+.project .projectList .item .status .copyUrl {
+  margin-left: 15px;
+  background-image: url(./images/urlIcon.png);
+}
+
+.project .projectList .info {
+  border: 1px solid transparent;
+  border-top: 1px solid #edeff3;
+  position: absolute;
+  display: flex;
+  height: 66px;
+  width: 100%;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.project .projectList .info .dataSource {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid #edeff3;
+  text-align: center;
+}
+
+.project .projectList .info .pages {
+  width: 50%;
+}
+
+.project .projectList .info .dataSource:hover,
+.project .projectList .info .pages:hover {
+  background-color: #e9f3fe;
+}
+
+.project .projectList .info i {
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project .projectList .info .content {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-top: 7px;
+  text-align: center;
+  font-size: 22px;
+}
+.project .projectList .info .content .des {
+  color: #a2aabb;
+}
+
+.project .projectList .info .content span {
+  position: absolute;
+  top: 30px;
+  left: 48px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.project .projectList .info .pages .content .des {
+  left: 54px;
+}
+
+.project .projectList .info .dataSource i {
+  background-image: url(./images/database.png);
+}
+
+.project .projectList .info .pages i {
+  background-image: url(./images/pages.png);
+}
+
+.createProject {
+  display: flex;
+}
+
+.editProject {
+  margin-top: 20px;
+}
+
+.createProject .projectInfo {
+  width: 50%;
+  border-right: 1px solid #f0f0f0;
+  padding: 20px 0 30px 0;
+}
+.createProject .dataSourceInfo {
+  width: 50%;
+  padding: 20px 0 30px 15px;
+}
+
+.createProject .description {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 15px;
+  color: #464646;
+}
+
+.releaseModel li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.releaseModel .label {
+  width: 80px;
+  display: inline-block;
+}
+
+/* 重写antDesign  css */
+
+.ant-modal-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.ant-modal-title {
+  font-weight: bold;
+}
+.ant-select-selection-item {
+  text-overflow: clip;
+}
+.ant-modal-confirm-content .ant-modal-close-x {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.ant-modal-confirm-content .ant-modal-close-x:hover {
+  opacity: 1;
+}

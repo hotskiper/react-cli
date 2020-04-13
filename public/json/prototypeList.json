@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "id": "1",
+      "name": "人员实体",
+      "type": "person"
+    },
+    {
+      "id": "2",
+      "name": "车辆信息实体",
+      "type": "car"
+    }
+  ],
+  "msg": "string",
+  "page": {
+    "pageItems": 0,
+    "pageNo": 0,
+    "sortname": "string",
+    "sortorder": "string",
+    "totalRows": 0
+  }
+}

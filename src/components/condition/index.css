@@ -1,0 +1,16 @@
+.condition-item {
+    /* display: inline-block; */
+    margin:  4px 8px;
+    float: left;
+}
+.ai-condition {
+    zoom: 1;
+    padding: 12px;
+}
+.ai-condition:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}

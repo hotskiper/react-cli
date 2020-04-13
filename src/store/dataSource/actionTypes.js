@@ -1,0 +1,35 @@
+// 获取数据源列表
+export const GET_SOURCE_LIST = 'GET_SOURCE_LIST';
+export const RESOLVE_SOURCE_GET_LIST = 'RESOLVE_SOURCE_GET_LIST';
+
+// 获取数据库名称列表
+export const GET_SOURCE_NAME = 'GET_SOURCE_NAME';
+export const RESOLVE_SOURCE_NAME = 'RESOLVE_SOURCE_NAME';
+
+// 添加数据源
+export const SAVE_SOURCE_INFO = 'SAVE_SOURCE_INFO';
+export const RESOLVE_SAVE_SOURCE_INFO = 'RESOLVE_SAVE_SOURCE_INFO';
+
+// 检测数据源是否可以连通
+export const GET_SOURCE_DETECT = 'GET_SOURCE_DETECT';
+export const RESOLVE_SOURCE_DETECT = 'RESOLVE_SOURCE_DETECT';
+
+// 获取生成实体任务状态
+export const GET_TASK_STATE = 'GET_TASK_STATE';
+export const RESOLVE_TASK_STATE = 'RESOLVE_TASK_STATE';
+
+// 重跑任务
+export const SET_RUN_TASK = 'SET_RUN_TASK';
+export const RESOLVE_RUN_TASK = 'RESOLVE_RUN_TASK';
+
+// 获取实体信息
+export const GET_ENTITY_RELATION = 'GET_ENTITY_RELATION';
+export const RESOLVE_ENTITY_RELATION = 'RESOLVE_ENTITY_RELATION';
+
+// 获取页面信息
+export const GET_PAGE_LIST = 'GET_PAGE_LIST';
+export const RESOLVE_PAGE_LIST = 'RESOLVE_PAGE_LIST';
+
+// 保存页面选中状态
+export const SAVE_PAGE_STATUS = 'SAVE_PAGE_STATUS';
+export const RESOLVE_PAGE_STATUS = 'RESOLVE_PAGE_STATUS';

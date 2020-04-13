@@ -1,0 +1,34 @@
+.components-list {
+    width: 200px;
+}
+.components-group {
+
+}
+.components-group-title {
+    display: block;
+    padding: 3px 10px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    background: #eee;
+}
+.components-group-body {
+    zoom: 1;
+    padding: 12px;
+}
+.components-group-body:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+.components-group-body>div {
+    float: left;
+    width: 52px;
+    margin-right: 6px;
+    /* text-align: left; */
+    cursor: pointer;
+    border: solid 1px #999;
+    border-radius: 3px;
+}
